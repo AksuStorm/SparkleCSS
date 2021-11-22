@@ -1,0 +1,416 @@
+﻿// SparkleCSS
+// Copyright (c) 2021 AksuStorm
+// MIT License
+
+* {
+
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+div.error-resolution {
+	display: none;
+}
+
+div.body-site {
+	margin: 2%;
+	padding: 32px;
+	width: auto;
+}
+
+header {
+	border-bottom: 1px #000 solid;
+	text-align: center;
+	margin-bottom: 2%;
+	padding: 2%;
+}
+
+div.nav-bar  {
+	display: flex;
+	padding-left: calc(50% -  600px);
+	padding-right: calc(50% -  600px);
+}
+
+a.nav-bar-branding {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+div.nav-bar-branding-logo {
+	margin-top: 5px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+div.nav-bar-branding-logo div.logo-color#blue {
+	color: #1d2264;
+	display: inline-flex;
+}
+
+div.nav-bar-branding-logo div.logo-color#obsibian {
+	color: #6114d5;
+	display: inline-flex;
+}
+
+div.nav-bar-links {
+	display: flex;
+}
+
+ul.nav-bar-links#items {
+	list-style: none;
+	display: flex;
+}
+
+ul.nav-bar-links#socialmedia {
+	margin-left: 74%;
+	list-style: none;
+	display: flex;
+}
+
+li.nav-bar-link#link-item a {
+	color: black;
+	white-space: nowrap;
+}
+
+li.nav-bar-link#link-item {
+	display: ruby;
+	margin-right: 20%;
+}
+
+a.nav-bar-link-item#color {
+	color: black;
+}
+
+a.nav-bar-link-item#color:hover {
+	color: grey;
+}
+
+ul.nav-bar-links#socialmedia {
+	display: flow-root;
+	margin-right: 8%;
+}
+
+li.nav-bar-link#link-social {
+	display: contents;
+}
+
+a.nav-bar-social-link {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 24px;
+	padding: 24px;
+}
+
+a.nav-bar-social-link#facebook {
+	background-image: url("../images/social_icons/testicon.png");
+}
+
+a.nav-bar-social-link#twitter {
+	background-image: url("../images/social_icons/testicon.png");
+}
+
+a.nav-bar-social-link#instagram {
+	background-image: url("../images/social_icons/testicon.png");
+}
+
+a.nav-bar-social-link#linkedin {
+	background-image: url("../images/social_icons/testicon.png");
+}
+
+a.nav-bar-social-link#youtube {
+	background-image: url("../images/social_icons/testicon.png");
+}
+
+div.main-view {
+	position: relative;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+div.main-view-content#index {
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 7%;
+}
+
+div.main-view-post {
+	border: #000 solid;
+	margin: 5%;
+	padding: 4%;
+}
+
+p.main-view-subheader-title {
+	text-align: center;
+}
+
+p.main-view-subheader-title#index {
+	font-size: 35px;
+}
+
+p.main-view-subheader-title#date {
+	font-size: 20px;
+}
+
+div.main-view-subheader-item#item-text {
+	margin-top: 4%;
+	margin-bottom: 5%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+div.main-view-post-yt-video {
+	margin-top: 4%;
+}
+
+iframe.main-view-post-yt-video {
+	border: none;
+	width: 50%;
+	height: 50vh;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+img.main-view-content-post-image {
+	width: 50%;
+	height: 50vh;
+	margin-top: 4%;
+	margin-bottom: 3%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+footer {
+	border-top: 1px #000 solid;
+}
+p#footer {
+	text-align: center;
+}
+
+@media only screen and (max-width: 1500px) {
+
+div.nav-bar {
+	display: contents;
+}
+
+div.nav-bar-branding-logo {
+	margin-bottom: 5%;
+}
+
+div.nav-bar-links {
+	display: unset;
+}
+
+ul.nav-bar-links#items {
+	display: grid;
+	padding: 0;
+}
+
+li.nav-bar-link#link-item {
+	font-size: 23px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+ul.nav-bar-links#socialmedia {
+	display: inline-block;
+	margin-right: 0;
+	padding: 0;
+}
+
+a.nav-bar-branding {
+	display:unset;
+}
+
+iframe.main-view-post-yt-video {
+	border: none;
+	width: 74%;
+	height: 40vh;
+	margin-right: 14%;
+	margin-left: 14%;
+}
+
+img.main-view-content-post-image {
+	width: 74%;
+	height: 40vh;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	margin-right: 14%;
+	margin-left: 14%;
+}
+
+@media only screen and (max-height: 800px) {
+
+ul.nav-bar-links#socialmedia {
+	margin: 0;
+	display: inline-block;
+}
+
+div.main-view-subheader-item#item-text {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+iframe.main-view-post-yt-video {
+	width: 98%;
+	height: 80vh;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+img.main-view-content-post-image {
+	width: 98%;
+	height: 80vh;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+}
+
+@media only screen and (max-width: 520px) {
+
+li.nav-bar-link#link-item {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+li.nav-bar-link#link-social {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+a.nav-bar-social-link {
+	background-size: 25px;
+	padding: 25px;
+}
+
+div.main-view-subheader-item#item-text {
+	margin-top: 18%;
+	margin-bottom: 14%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+iframe.main-view-post-yt-video {
+	border: none;
+	width: 98%;
+	height: 30vh;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+img.main-view-content-post-image {
+	width: 98%;
+	height: 30vh;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+div.main-view-subheader-item#item-text {
+	margin-top: 4%;
+	margin-bottom: 16%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+iframe.main-view-post-yt-video {
+	border: none;
+	width: 98%;
+	height: 30vh;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+img.main-view-content-post-image {
+	width: 98%;
+	height: 30vh;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+}
+
+@media only screen and (max-width: 240px) {
+
+header {
+	margin-bottom: 1%;
+}
+
+div.nav-bar {
+	display: unset;
+}
+
+div.nav-bar-branding-logo {
+	margin-bottom: 5%;
+}
+
+div.nav-bar-branding-logo div.logo-color#blue {
+	margin-left: 1%;
+}
+
+div.nav-bar-links {
+	display: unset;
+}
+
+ul.nav-bar-links#items {
+	display: grid;
+}
+
+li.nav-bar-link#link-item {
+	font-size: 30px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: -2%;
+}
+
+ul.nav-bar-links#socialmedia {
+	display: contents;
+	margin-left: 0;
+}
+
+a.nav-bar-branding {
+	display:unset;
+}
+
+iframe.main-view-post-yt-video {
+	display: none;
+}
+
+img.main-view-content-post-image {
+	display: none;
+}
+
+
+}
+
+@media only screen and (max-width: 150px) {
+
+div.error-resolution {
+	display: flex;
+}
+
+}
