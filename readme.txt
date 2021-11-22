@@ -4,3 +4,5 @@ Project Sparkle is a minimal and simplistic website project. The elements of the
 Website can be used as blog template etc, whatever, where you want. MIT License. Positive and constructive feedback is welcome.
 
 https://github.com/AksuStorm/SparkleCSS/blob/main/LICENSE
+
+Live preview: https://aksustorm.github.io/SparkleCSS/
